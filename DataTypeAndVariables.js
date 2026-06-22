@@ -100,3 +100,92 @@
 
 
 
+// // Exercise 8
+
+// // Ask for two numbers.
+
+// // Print their sum.
+
+// let val1 = prompt("Enter Value 1: ");
+// let val2 = prompt("Enter Value 2: ");
+
+// let num1 = Number(val1);
+// let num2 = Number(val2);
+
+// let sum = num1 + num2;
+
+// console.log(`Sum of ${val1} and ${val2} is ${sum}`);
+
+
+
+// Exercise 9
+
+// Ask for favorite programming language.
+
+// Print
+
+// JavaScript is awesome!
+
+
+// let language = prompt("Enter Favourite Programming Language: ");
+
+// console.log(`${language} is Awesome!`);
+
+
+
+// Exercise 10
+
+// Ask for city and country.
+
+// Print
+
+// You live in Karachi, Pakistan.
+
+// let city = prompt("Enter Your City: ");
+// let country = prompt("Enter Your Country: ");
+
+// console.log(`You Live In ${city}, ${country}`);
+
+
+
+// Exercise 11
+
+// Input radius.
+
+// Calculate
+
+// Area of circle
+
+
+// let radius = prompt("Enter Radius Of Circle: ");
+
+// let Radius = Number(radius);
+
+// let area = 3.142 * radius;
+
+// console.log(`Area of Circle: ${area}`);
+
+
+// Exercise 12
+
+// Input length and width.
+
+// Calculate rectangle area.
+
+// let length = prompt("Enter Length Of Rectangle: ");
+// let width = prompt("Enter Width Of Rectangle: ");
+
+// let Length = Number(length);
+// let Width = Number(width);
+
+// let area = Length * Width;
+// console.log(`Area of Rectangle: ${area}`);
+
+
+// Exercise 13
+
+// Input temperature in Celsius.
+
+// Convert to Fahrenheit.
+
+let tempCelcius = Number(prompt("Enter Temperature In Celcius: "));
