@@ -33,10 +33,10 @@
 // let val1 = 4;
 // let val2 = 2;
 
-// console.log(`Sum: ${4+2}`);
-// console.log(`Difference: ${4-2}`);
-// console.log(`Product: ${4*2}`);
-// console.log(`Quotient: ${4/2}`);
+// console.log(`Sum: ${val1+val2}`);
+// console.log(`Difference: ${val1-val2}`);
+// console.log(`Product: ${val1*val2}`);
+// console.log(`Quotient: ${val1/val2}`);
 
 
 // // Exercise 3
@@ -161,7 +161,7 @@
 
 // let Radius = Number(radius);
 
-// let area = 3.142 * radius;
+// let area = Math.PI * radius * radius;
 
 // console.log(`Area of Circle: ${area}`);
 
@@ -188,4 +188,115 @@
 
 // Convert to Fahrenheit.
 
-let tempCelcius = Number(prompt("Enter Temperature In Celcius: "));
+// let tempCelcius = Number(prompt("Enter Temperature In Celcius: "));
+
+// let tempFahrenheit = (tempCelcius * 9/5) + 32;
+
+// console.log(`${tempCelcius} Celcius -> ${tempFahrenheit} Fahrenheit`);
+
+
+
+// Exercise 14
+
+// Input seconds.
+
+// Convert into
+
+// Hours
+// Minutes
+// Seconds
+
+// (Hint: don't worry if you haven't learned Math.floor() yet—using division and remainder later is fine. For now, focus on the calculation idea.)
+
+// let seconds = prompt("Enter Seconds: ");
+
+// let hour = seconds/3600;
+// let minutes = (seconds%10)/60;
+// let sec = (seconds%100);
+
+// console.log(`${hour}:${minutes}:${sec}`);
+
+
+
+// Exercise 15
+
+// Input salary.
+
+// Calculate yearly salary.
+
+// let salary = Number(prompt("Enter Salary: "));
+
+// let yearlySalary = salary * 12;
+
+// console.log(`Yearly Salary: ${yearlySalary}`);
+
+
+
+// Exercise 16
+
+// Store
+
+// First Name
+// Last Name
+
+// Print full name.
+
+// let firstName = prompt("Enter First Name: ");
+// let lastName = prompt("Enter Last Name: ");
+
+// console.log(`Hello ${firstName + " " + lastName}`);
+
+
+
+// Exercise 17
+
+// Store
+
+// City
+// Country
+
+// Print
+
+// Karachi, Pakistan
+
+
+// let city = prompt("Enter Your City: ");
+// let country = prompt("Enter Your Country: ");
+
+// console.log(`${city}, ${country}`);
+
+
+//Exercise 18  19 20  has veen done before
+
+
+// Create an object representing yourself.
+
+// Exercise 21
+// Include
+
+// name
+// age
+// country
+// student
+// favoriteLanguage
+
+// Print every property separately.
+
+// let me = {
+//     name:"Sarim",
+    // age: 18,
+    // country:"Pakistan",
+//     isStudent: true,
+//     favouriteLanguage : "C++"
+// }
+
+// console.log(me.name);
+// console.log(me.age);
+// console.log(me.country);
+// console.log(me.isStudent);
+// console.log(me.favouriteLanguage);
+
+
+//22 23 24 25 exercises are same
+
+//26 27 28 29 30 exercises are same 
