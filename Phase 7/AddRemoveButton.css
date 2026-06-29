@@ -1,0 +1,19 @@
+button
+{
+    background-color: rgb(61, 136, 187);
+    color: white;
+    border:none;
+    border-radius: 15px;
+    font-size: 1rem;
+    cursor: pointer;
+
+}
+
+
+
+.active
+{
+     background-color: rgb(86, 156, 40);
+     color:white;
+     padding:20px;
+}
