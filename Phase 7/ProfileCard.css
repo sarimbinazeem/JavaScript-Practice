@@ -1,0 +1,93 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body{
+       display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+     min-height: 100vh
+}
+
+.card
+{
+    background-color: rgb(218, 218, 218);
+    width: 250px;
+    padding: 20px;
+    
+    border: 2px solid rgb(207, 207, 207);
+    border-radius: 15px;
+    transition: all 0.3s ease;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    box-shadow: 0px 10px 40px gray;
+    line-height: 1.6;
+
+    border: 3px solid red;
+}
+
+
+#heading
+{
+    color: #1B2A4A;
+    font-weight: 800;
+
+    margin-bottom: 20px;
+}
+
+#image
+{
+    border-radius: 25px;
+
+    margin-bottom: 20px;
+}
+
+#name
+{
+    font-weight: 600;
+}
+
+.status
+{
+    position: relative;
+    margin-top: 500p;
+    background-color: red;
+    padding: 5px;
+    border-radius: 15px;
+    color: white;
+    transition: all 0.3s ease;
+}
+
+#btn
+{
+    background-color: green;
+    width: 100%;
+    cursor: pointer;
+    color: white;
+    font-size: 1rem;
+    margin-top: 20px;
+    padding:10px;
+    border: none;
+    border-radius: 14px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+.online{
+    background-color:green;
+    font-weight:bold;
+}
+
+.offline{
+    background-color:red;
+    font-weight:bold;
+}
+
